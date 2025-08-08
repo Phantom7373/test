@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f64317b-ab0f-4ad2-a0e3-ef3baff5e9d9">
+  <name>Регистры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.УчетнаяПолитикаОрганизации</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>AccumulationRegister.СебестоимостьТоваров</content>
+  <content>InformationRegister.ЗначенияХарактеристик</content>
+  <content>InformationRegister.КурсВалют</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+</mdclass:Subsystem>

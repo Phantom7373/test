@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5116a36e-fc94-4d55-9988-22f88300ca51">
+  <producedTypes>
+    <selectionType typeId="95f4517c-9f7f-4cd4-8c6f-5d6df1df58dc" valueTypeId="df49011e-6837-4684-8fce-2091b0941cd0"/>
+    <listType typeId="f3239942-54c0-40b9-8ceb-138584adce1d" valueTypeId="acea11e9-224b-4e66-b0ea-df2bf1f2fa6c"/>
+    <managerType typeId="ec73a0c4-2677-4a90-8066-7aed9ecc20d8" valueTypeId="4701fb68-b0e3-4165-8ca4-096006d62aa2"/>
+    <recordSetType typeId="159b44f7-1556-40d3-9a20-97e20e1e215a" valueTypeId="6f47b364-54ec-4c3f-802a-68138e52574e"/>
+    <recordKeyType typeId="b24ce100-9655-49c9-a1e2-25797d2c5574" valueTypeId="b8edfcc6-e8ec-46d1-8fa6-a92c06f8c1e1"/>
+    <recordType typeId="7d47ac1c-05ca-4181-8db3-32a8125f7716" valueTypeId="e9c62b99-9e54-41b0-b656-7bf5db301c36"/>
+    <recordManagerType typeId="8b0785d0-8d6a-42bf-a6fd-d9063e89223b" valueTypeId="74ab5f32-15e3-4ddb-949f-efd8defba2af"/>
+  </producedTypes>
+  <name>УчетнаяПолитикаОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e7a5c261-f7b6-427d-86b3-399de2a98cf0">
+    <name>МетодСписанияСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания себестоимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

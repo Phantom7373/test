@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3958fb17-38f8-4ed7-8a9a-87158b43f818">
+  <producedTypes>
+    <objectType typeId="e31ab5ae-ce1c-4f2a-8bfd-7ab0a0a3435f" valueTypeId="4ec39123-73d5-488c-9915-9e71d885c52f"/>
+    <refType typeId="ac9a4ee2-1cca-493f-905c-d68fe6238f0f" valueTypeId="e2bbeea0-a119-40d8-84c3-29be8fa1ba53"/>
+    <selectionType typeId="e08fac41-832c-4d50-9b4f-f07fe4aa993f" valueTypeId="27d21eb5-19b5-4cf7-9143-c5fe64bea20d"/>
+    <listType typeId="982f889d-6407-417e-84b6-bdbaca74a560" valueTypeId="f9c80a97-0d54-49ed-a65d-6910bbb9b021"/>
+    <managerType typeId="d081f73b-d207-487c-b0b2-78551dbc7d0e" valueTypeId="faca2193-a5d0-40a5-9c87-8542a0f424b0"/>
+  </producedTypes>
+  <name>ФО</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФО.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФО.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="658136ad-f145-4fa0-9538-a03a2541dbcb">
+    <producedTypes>
+      <objectType typeId="164526b7-4e46-4002-a17c-1bafa814136b" valueTypeId="7c8d5643-7e83-4aa3-b5e4-5f25f60536c6"/>
+      <rowType typeId="92764624-8469-4ac7-b989-726b53fba42a" valueTypeId="91d6ed55-3afd-4dea-a305-549b9e1fce6e"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <attributes uuid="2a03b20f-3fd9-45c1-9562-ac671fabd34c">
+      <name>Реквизит1</name>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e34cb0be-0b1a-4daf-8ab5-538c80d080e0">
+      <name>Реквизит2</name>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

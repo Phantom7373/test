@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc1151b8-69ec-43ad-a6b6-a9bde1466fcd">
+  <producedTypes>
+    <selectionType typeId="165fdf00-c185-4d6d-949b-c3dec3f1d3bf" valueTypeId="a85dc84d-fee8-4516-82e9-e06f7a4bdf47"/>
+    <listType typeId="db2940a3-a1f6-4d7e-9125-575cee34216d" valueTypeId="3031a323-13f6-4664-a456-498b477ef5d0"/>
+    <managerType typeId="1c833212-6f54-4ebe-9330-5de5bc6894dc" valueTypeId="e700d5a4-9174-4b83-a974-b3e4193cf303"/>
+    <recordSetType typeId="2dcfc2e4-1f05-426f-bcd4-43476037e6dc" valueTypeId="c05e502e-1843-4a2d-bd24-5bd100d24fcf"/>
+    <recordKeyType typeId="464eb3e8-3acc-4613-9ae3-3b7c0b823351" valueTypeId="236d5a60-96ed-4cd5-9f34-f70ceb40c1f3"/>
+    <recordType typeId="096dc6e8-d207-40fb-a4a2-fd1cf5b8e1a2" valueTypeId="f369d566-e4ad-49ff-95e7-88e93a648954"/>
+  </producedTypes>
+  <name>ОстаткиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9476b165-ee86-4746-aa1f-242a31b5fab7">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c2ca2fce-eedc-4ffa-ad68-bed68d691a4b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b276dad2-9ee0-4365-aa0f-20d5cc59cf25">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

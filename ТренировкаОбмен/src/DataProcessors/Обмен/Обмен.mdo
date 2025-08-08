@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a39efc11-4267-4f6e-ad5c-5679558b58ea">
+  <producedTypes>
+    <objectType typeId="3d4dfdab-cff0-4fd6-846a-3df1d7bb19c3" valueTypeId="81a2a6af-7537-417b-9a92-b7be493fefab"/>
+    <managerType typeId="79a443b0-6065-4fca-b17a-bbcc850f1fef" valueTypeId="b025114b-48a5-4950-b267-a6b6b7d6eb84"/>
+  </producedTypes>
+  <name>Обмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Обмен.Form.Форма</defaultForm>
+  <attributes uuid="ba6638c6-7f48-455f-bea6-8d7830ba00fa">
+    <name>КаталогОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>600</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь сохранения файла обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ee52be40-11fe-4e4f-a1cc-a0269576f88b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
